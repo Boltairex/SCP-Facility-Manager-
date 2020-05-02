@@ -8,7 +8,7 @@ public class LightController : MonoBehaviour
     public bool iscontained;
     Light light;
     RaycastHit RayInfo;
-    // Start is called before the first frame update
+    
     void Start()
     {
         light = GameObject.Find("ContaimentLight").GetComponent<Light>();
