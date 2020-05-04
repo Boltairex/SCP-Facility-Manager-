@@ -12,7 +12,7 @@ public class LightController : MonoBehaviour
     void Start()
     {
         light = GameObject.Find("ContaimentLight").GetComponent<Light>();
-        light.intensity = 0.03f;
+        light.intensity = 0.04f;
         light.color = new Color(255, 255, 255, 255);
 
     }
